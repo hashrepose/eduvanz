@@ -1,3 +1,9 @@
+<style type="text/css">
+        .datepicker>div {
+            display: block;
+        }
+       
+</style>
 <div class="app-content">
 <div class="section">
    

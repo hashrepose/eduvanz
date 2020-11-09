@@ -44,9 +44,7 @@
      
    </head>
    <body class="app h-100vh">
-      <!-- Loader -->
-      <div id="loading" > <img src="<?=base_url();?>assets/images/other/loader.svg" class="loader-img" alt="Loader"> </div>
-      <!-- Page opened -->
+            <!-- Page opened -->
       <div class="page">
          <div class="">
             <!-- container opened -->
@@ -78,6 +76,7 @@
                                        </div>
                                     </div>
                                     <div class="form-footer mt-1"> <button type="submit" class="btn btn-danger btn-block">SignIn</button> </div>
+                                    <div class="form-footer mt-1"> <a href="<?php echo base_url().'event/' ?>">Go back</a> </div>
                                  </form>
                               </div>
                            </div>

@@ -14,9 +14,6 @@ class Dashboard_Model extends MY_Model{
 		 }else{
 			 return false;
 		 }
-		 
 	 }
-
-	 
-	
 }
+?>

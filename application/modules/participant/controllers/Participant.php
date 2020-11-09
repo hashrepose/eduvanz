@@ -106,7 +106,6 @@ class Participant extends MY_Controller {
 	/** Admin Edit Participant */
 	public function edit() 
 	{
-
 		$this->login = $this->session->userdata('logged_in_admin');			
 		if(empty($this->login)){
 			redirect('login','refresh');
@@ -181,8 +180,8 @@ class Participant extends MY_Controller {
 					{
 						redirect('participant/getAll');	
 					}
-					
 				}
 		}
 	}
 }
+?>

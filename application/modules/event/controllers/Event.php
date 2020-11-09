@@ -7,7 +7,7 @@ class Event extends MY_Controller {
             parent::__construct(); 
 			$this->load->helper("common");	
 			$this->load->model("Event_Model");	
-			// $this->login = $this->session->userdata('logged_in_admin');			
+			// $this->login = $this->session->userdata('logged_in_participant');			
 			//   if(empty($this->login)){
 			// 	redirect('login','refresh');
 			//   }  
@@ -36,7 +36,9 @@ class Event extends MY_Controller {
 	}
 	public function login()
 	{
-		$this->load->view('login');
+		$content['subview']="login";
+		$this->load->view('layout_participant',$content);
+		
 	}
 	public function register_user()
 	{
@@ -190,8 +192,6 @@ class Event extends MY_Controller {
 			$content['subview']="participant_edit";
 			$this->load->view('layout_participant', $content);
 		}
-		
-
 	}
-
 }
+?>

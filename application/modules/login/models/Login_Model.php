@@ -20,3 +20,5 @@ class Login_Model extends MY_Model{
 	    }
 	}
 }
+
+?>

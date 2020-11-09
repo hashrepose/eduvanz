@@ -60,7 +60,5 @@ class Login extends My_Controller {
 		$this->session->unset_userdata('logged_in_admin');
 		redirect('login');
 	}
-	  
-	
-	 
 }
+?>

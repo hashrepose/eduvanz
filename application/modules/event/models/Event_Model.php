@@ -47,12 +47,10 @@ class Event_Model extends MY_Model{
             $this->db->where('id',$id);
             $query=$this->db->get();
             //$this->db->last_query($query);
-              if($query->num_rows() > 0 ){
+            if($query->num_rows() > 0 )
                     return $query->result();
-                }else{		
+			else		
                     return '';
-                }
-         
-        
     }
 }
+?>
