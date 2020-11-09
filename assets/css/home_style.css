@@ -1,0 +1,61 @@
+/*-----------------------------------------------------------    
+    [Table of contents] 
+	
+    1. Template default css (assets/css/bundle.css)
+    2.  header css here
+        2.1 Top Drodown css here
+		2.2 mobile menu css here
+        2.3 header middle css here
+        2.4 mini cart css here
+        2.5 header bottom css here
+        2.6 submenu css here*
+        2.7 Categories menu
+		2.8 slider  css here
+		2.9 small product css here
+		2.10 shipping css here
+		2.11 product  css here
+		2.12 featured css here
+		2.13 brand css here
+		2.14 blog  css here
+		2.15 static  css here
+		2.16 newsletter css here
+		2.17 footer  css here
+    3. modal css here
+	4.  home page 2 css here
+    5.home page 3 css here
+	6.home page 4 css here 
+    7. shop page css here
+	8. product details css here
+	9. portfolio page css here
+	10. about page css here*
+	11. services page css here
+	12. about page 2 css here
+	13. blog  sidebar css here
+	14. blog details css here
+	15. single product css here
+	16. contact page css here
+	17. contact two css here
+	18. error page css here
+	19. faq page css start
+	20. my account page ss here
+    21. cart page css here
+    22. wishlist css here
+    23. check out  css here
+    24. portfolio details css here
+   
+-----------------------------------------------------------------------------------*/
+
+/*-------
+     2.  header css here
+----*/
+@charset "UTF-8";
+/**
+* Author: Mansih Kumar
+* Created: 01-11-2019
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400&display=swap');
+
+.new_price , .old_price {
+	font-family: 'Roboto', sans-serif;
+}
